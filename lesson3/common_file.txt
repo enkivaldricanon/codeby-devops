@@ -1,4 +1,4 @@
 Base content from branch_a
- branch_b
-Update from branch_b
+branch_b
+Update from branch_a
 

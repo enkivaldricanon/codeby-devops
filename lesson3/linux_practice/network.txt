@@ -1,0 +1,20 @@
+   65  git commit -a "Update README for lesson3"
+   66  git push -u origin lesson3
+   67  cd codeby-devops
+   68  mkdir -p lesson3/linux_practice
+   69  echo "User: $(whoami)" > lesson3/linux_practice/vm_info.txt
+   70  echo "Host: $(hostname)" > lesson3/linux_practice/vm_info.txt
+   71  echo "Date: $(Date)" > lesson3/linux_practice/vm_info.txt
+   72  echo "Date: $(date)" > lesson3/linux_practice/vm_info.txt
+   73  echo "Path: $(path)" > lesson3/linux_practice/vm_info.txt
+   74  echo "User: $(whoami)" > lesson3/linux_practice/vm_info.txt
+   75  echo "Date: $(Date)" >> lesson3/linux_practice/vm_info.txt
+   76  echo "Date: $(date)" >> lesson3/linux_practice/vm_info.txt
+   77  echo "User: $(whoami)" > lesson3/linux_practice/vm_info.txt
+   78  echo "Host: $(hostname)" >> lesson3/linux_practice/vm_info.txt
+   79  echo "Date: $(date)" >> lesson3/linux_practice/vm_info.txt
+   80  echo "Path: $(pwd)" >> lesson3/linux_practice/vm_info.txt
+   81  exit
+   82  cd codeby-devops
+   83  ip a > lesson3/linux_practice/network.txt
+   84  history | tail -n 20 > lesson3/linux_practice/network.txt
